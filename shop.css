@@ -1,0 +1,387 @@
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: white;
+}
+
+
+
+/* Navbar */
+
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100vw;
+    height: 4vw;
+    position: fixed;
+    background-color: black;
+    z-index: 999;
+}
+
+.in-nav img {
+    height: 2vw;
+}
+
+.in-nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 3vw;
+}
+
+.nav-gauche {
+    display: flex;
+    justify-content: left;
+    width: 25vw;
+}
+
+.nav-droite {
+    display: flex;
+    justify-content: right;
+    width: 75vw;
+}
+
+.nav-droite a {
+    margin-left: 5vw;
+}
+
+.logos {
+    color: white;
+    font-family: Witcher Knight;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+.logos:hover {
+    transform: scale(1.15);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* Body */
+
+body {
+    background-color: black;
+    overflow: overlay;
+}
+
+header {
+    padding-top: 4.5vw;
+    background-image: url("../Oblivion/background2.png");
+    background-size: cover;
+    height: 54vw;
+    width: 100vw;
+}
+
+.logo-oblivion {
+    padding-top: 4vw;
+    padding-left: 3vw;
+    width: 35vw;
+}
+
+.logo-top p {
+    color: white;
+    font-size: 1.8vw;
+    padding-left: 9.85vw;
+    line-height: 1vw;
+    font-family: Witcher Knight;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-around;
+    margin: 7vw 5vw;
+    line-height: 1;
+}
+
+.xbox, .pc {
+    width: 13vw;
+    height: 14vw;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 20%);
+}
+
+.logo {
+    color: white;
+    font-size: 8vw;
+    padding: 0.5vw;
+}
+
+.choice a {
+    color: white;
+    font-size: 1.7vw;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2vw;
+}
+
+.choice a:hover {
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0, 50%);
+    transform: scale(1.1);
+    color: white;
+}
+
+.relive {
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    font-family: Inknut Antiqua;
+}
+
+
+main {
+    background-image: url("../Oblivion/lava.jpg");
+    height: 107vw;
+    background-position: center;
+    border-top: 4vw solid black;
+}
+
+.editions {
+    display: flex;
+    justify-content: space-around;
+    padding: 5vw 12vw;
+}
+
+.standard, .deluxe {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 70%);
+    color: white;
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+}
+
+.edition {
+    font-family: "Inknut Antiqua";
+    font-size: 1.3vw;
+    margin-top: 1.5vw;
+    margin-bottom: 0;
+}
+
+.editions img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.logo-standard, .logo-deluxe {
+    display: flex;
+}
+
+.logo-dark1 {
+    margin-left: -11vw;
+    margin-top: 2.5vw;
+    width: 9vw !important;
+    height: 100%;
+}
+
+.logo-dark2 {
+    margin-left: -18vw;
+    margin-top: 2.5vw;
+    width: 9vw !important;
+    height: 100%;
+}
+
+.text-logo1 {
+    margin-left: -8.3vw;
+    padding-top: 4.3vw;
+    font-size: 0.6vw;
+    color: black;
+    line-height: 1.2vw;
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0, 70%);
+    font-family: Witcher Knight;
+}
+
+.text-logo2 {
+    margin-left: -7.8vw;
+    padding-top: 4.3vw;
+    font-size: 0.6vw;
+    color: black;
+    line-height: 1.2vw;
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0, 70%);
+    font-family: Witcher Knight;
+}
+
+span {
+    font-family: "Inknut Antiqua";
+    font-weight: bold;
+}
+
+.configurations {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2vw;
+    line-height: 1.1vw;
+}
+
+.minimum, .recommended {
+    border: 2px solid black;
+    width: 43vw;
+    height: 12vw;
+    background-color: rgb(0, 0, 0, 70%);
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1vw;
+}
+
+.minimum p, .recommended p {
+    padding: 1vw 0 0 2vw;
+    line-height: 0;
+    
+}
+
+.minimum li, .recommended li {
+    padding-left: 2vw;
+}
+
+.underline {
+    text-decoration: underline;
+    margin-bottom: 1vw;
+}
+
+.relou {
+    list-style: none;
+}
+
+.goodies1 p, .goodies2 p {
+    font-family: "Inknut Antiqua";
+    font-size: 1.1vw;
+}
+
+.goodies1 {
+    display: flex;
+    justify-content: center;
+    margin: 5vw 0;
+}
+
+.mehrunes {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 70%);
+    color: white;
+    text-align: center;
+    width: 35vw;
+}
+
+.mehrunes img {
+    width: 100%;
+    border-radius: 10% 10% 0% 0%;
+}
+
+.goodies2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 15vw;
+}
+
+.card, .tshirt {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 70%);
+    color: white;
+    text-align: center;
+    width: 16vw;
+}
+
+.card img, .tshirt img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.bottom-goodies {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-goodies p {
+    margin: auto 0;
+    padding-right: 1vw;
+}
+
+button {
+    width: 7vw;
+    height: 3vw;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.4vw;
+    margin: 1vw 1vw;
+    border: 1px solid black;
+}
+
+button:hover {
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0, 50%);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4vw;
+    background-color: black;
+    padding-left: 2vw;
+    padding-right: 3vw;
+}
+
+footer .gauche {
+    width: 40vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+footer .droite {
+    width: 40vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer p {
+    font-family: 'Witcher Knight';
+    margin: 0;
+    color: white;
+    font-size: 1.2vw;
+}
+
+footer .logos {
+    color: white;
+    font-size: 1.3vw;
+}
+
+footer .gauche i {
+    margin-right: 2vw;
+}
+
+.copyright {
+    font-size: 1vw;
+}
+
+#simplon {
+    width: 1.3vw;
+}
+
+#bethesda img {
+    height: 4vw;
+}

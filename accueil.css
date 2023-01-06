@@ -1,0 +1,304 @@
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: white;
+}
+
+
+
+/* Navbar */
+
+.nav-burger {
+    display: none;
+    font-size: 1vw;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100vw;
+    height: 4vw;
+    position: fixed;
+    background-color: black;
+    z-index: 999;
+}
+
+.in-nav img {
+    height: 2vw;
+}
+
+.in-nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 3vw;
+}
+
+.nav-gauche {
+    display: flex;
+    justify-content: left;
+    width: 25vw;
+}
+
+.nav-droite {
+    display: flex;
+    justify-content: right;
+    width: 75vw;
+}
+
+.nav-droite a {
+    margin-left: 5vw;
+}
+
+.logos {
+    color: white;
+    font-family: Witcher Knight;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+.logos:hover {
+    transform: scale(1.15);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* Body */
+
+body{
+    background-color: black;
+    overflow: overlay;
+}
+
+.background1{
+    background-image: url("gif.gif");
+    background-size: cover;
+    width: 100vw;
+    height: 54vw;
+}
+
+.title {
+    padding-left: 20vw;
+    padding-top: 7.5vw;
+}
+
+.title img {
+    width: 34vw;
+}
+
+.title p {
+    font-size: 2.2vw;
+    font-family: Witcher Knight;
+    padding-left: 5.3vw;
+    line-height: 10px;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 60%);
+}
+
+.date {
+    color: white;
+    margin-left: 22.5vw;
+    font-size: 5vw;
+    font-family: 'Inknut Antiqua';
+}
+
+video {
+    margin-left: 25vw;
+    width: 23vw;
+    height: 13vw;
+    margin-top: 1.5vw;
+}
+
+video:hover{
+   transform: scale(2);
+   transition: 0.2s;
+}
+
+.precommand-now {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 5vw;
+    margin-top: 3.5vw;
+    font-family: "Inknut Antiqua";
+    text-decoration: none;
+    line-height: 1;
+}
+
+.precommand-now i {
+    font-size: 2.5vw;
+}
+
+.precommand-now p:hover {
+    transform: scale(1.05);
+    color: white;
+    cursor: pointer;
+}
+.precommand-now:hover {
+    color: white;
+}
+
+.background2{
+    background-image: url("relive.png");
+    height: 22.5vw;
+    width: 100vw;
+    background-size: cover;
+    margin-top: 4vw;
+}
+
+.text-adventure{
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    font-family: 'Inknut Antiqua';
+    line-height: 11vw;
+}
+
+.background3{
+    background-image: url("exploration1.png");
+    height: 40vw;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4vw;
+    padding-top: 2vw;
+}
+
+.bubble-exploration {
+    width: 45vw;
+    height: 9.4vw;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 50%);
+    margin-left: 6.5vw;
+    margin-top: 2vw;    
+}
+
+.background4{
+    background-image: url("Battle.jpg");
+    height: 40vw;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4vw;
+    padding-top: 2vw;    
+}
+
+.bubble-battle { 
+    width: 45vw;
+    height: 9.4vw;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 50%);
+    margin: 0 auto;
+    margin-top: 2vw;  
+}
+
+.background5{
+    background-image: url("encounter.jpg");
+    height: 40vw;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4vw;
+    padding-top: 2vw;  
+}
+
+.bubble-encounter {
+    width: 45vw;
+    height: 9.4vw;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 50%);
+    margin-left: 48vw;
+    margin-top: 2vw;   
+}
+
+.bubble-exploration p, .bubble-battle p, .bubble-encounter p{
+   color: black;
+   font-size: 3vw;
+   font-family: 'Inknut Antiqua';
+   text-align: center;
+}
+
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4vw;
+    background-color: black;
+    padding-left: 2vw;
+    padding-right: 3vw;
+}
+
+footer .gauche {
+    width: 40vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+footer .droite {
+    width: 40vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer p {
+    font-family: 'Witcher Knight';
+    margin: 0;
+    color: white;
+    font-size: 1.2vw;
+}
+
+footer .logos {
+    color: white;
+    font-size: 1.3vw;
+}
+
+footer .gauche i {
+    margin-right: 2vw;
+}
+
+.copyright {
+    font-size: 1vw;
+}
+
+#simplon {
+    width: 1.3vw;
+}
+
+#bethesda img {
+    height: 4vw;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .nav-droite {
+        display: none;
+    }
+    .nav-burger {
+        display: block;
+    }
+}
